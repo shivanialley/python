@@ -1,0 +1,171 @@
+Operators
+
+	Example:
+		print(10+5)
+	
+	Python divides the operators in the following groups:
+	1. Arithmetic Operators
+	2. Logical
+	3. Bitwise
+	4. Assignment
+	5. Identity
+	6. Comparison
+	7. Membership
+
+	Operator			Name 					Example
+	+ 				Addition				x+y
+	-				Subtraction				x-y
+	*				Multiplication				x*y
+	/				Division				x/y
+	%				Modulus					x%y
+	**				Exponentiation				x**y
+	//		Floor division(round off in upper or lower limit)	x//y
+	
+Concatination cant do in string
+
+	Assignment Operators
+	=
+	+=
+	-=
+	*=
+	/=
+	%=
+	//=
+	**=
+	
+	Comparison Operators
+	==
+	!=
+	>
+	<
+	>=
+	<=
+
+	Logical Operators
+	and
+	or
+	not
+
+	Identity Operators
+	is -> Returns True if both variable are the same object
+	is not -> 
+
+	Membersip Operators
+	in ->
+	not in
+
+	User Input
+	raw_input() method in pyhton2.7
+	input() method in python3.6
+		Example
+			username = input("Enter username")
+			print("Username is:" +username)
+
+	Flow of Control
+	
+	What is Module
+		Consider a module to be the same as a code library
+		A file containing a set of functions you want to include in your application
+
+	We can include one line from library
+	any file is use as a module
+	in myfile.py
+		def message(name);
+			print("Hello," +name)
+
+	inport myfie
+	myfile.message("All")
+
+	Another example
+		File myfile.py
+			person1 = {	#dictionary
+				"name" : "Shivani",
+				"age" : 25,
+				"country" : "India"
+				}
+
+		import myfile
+		a = myfile.person1["age"]
+		print(a)
+
+	Alias
+		import myfile as mf #mf is short name of file name
+		a = mf.person1["age"]
+		print(a)
+
+
+	Build-in Modules
+		import platform
+		x = platform.system()
+		print(x)
+
+	def msg(name)  #function
+		print("Hello," +name)
+	
+	person1 = {
+		"name" : "SHivani"
+		"age" : 25
+		}
+	
+
+	from myfile import person1
+	print(person1["age"])
+	
+		
+	1. Write a program to display 3 line message
+	2. Write a program to take input from user
+		student number, name, branch & university print the details print the details
+	3. Create a module consisting of 2 function area of rectangle & area of square from the main program do the following 	
+		1st program calclate the area of square only
+		2nd program calculate area of rectangle only
+		3rd program calculate area of both
+	
+
+	If-else
+
+		Example
+		a=20
+		b=30
+		if b>a:
+			print("b is greater than a")
+		elif a ==b:
+			print("a and b is equal")
+		else: 
+			print(a is greater than b")
+
+	One line if statement
+	if a>b:print("a is greater than b")
+		
+	One line if else statement
+	a=20
+	b=100
+	print("A") if a>b else print("B")
+
+
+	a=100
+	b=100
+	print("a") if(a>b) else print("=") if a==b else print("b")
+
+	practise in single line for program
+	
+	And 
+		if a>b and b>c:
+
+	Or
+		if a>b or b>c:
+
+	Not
+		if not a>b:
+		
+	Nested If:
+		if:
+		if:
+		else:
+
+	Pass statement
+		if b>a:
+			pass #pass to stop avoid error
+		
+	new question for if else
+
+
