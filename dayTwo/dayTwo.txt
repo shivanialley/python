@@ -1,0 +1,219 @@
+Looping in Python
+    For Loops
+        1. for loop is used for iterating over a squence (that is either a list, a tuple, a dictionary, a set or a string)
+        2. this is less like the for keyword in other programming languages, and works more like an interator method as found 
+        Example
+            fruits=["apple","banana","cherry"]#list 
+            for x in fruits:
+                print(x)
+                
+            for x in "banana"
+                print(x)
+                
+     Break
+         With the break statement we can stop the loop before it has looped through all the items:
+         Example
+             fruits=["apple","banana","cherry"]#list 
+            for x in fruits:
+                print(x)
+                if x=="banana"
+                    break
+                    
+                    
+      Continue
+          fruits=["apple","banana","cherry"]#list 
+            for x in fruits:
+                if x=="banana":
+                continue
+                print(x)
+                        
+      Range
+      
+      Else in for loop
+      
+      Nested Loop
+      
+      pass keyword
+      
+      while loop
+          i=1
+          while i<6:
+              print(i)
+              i+=1
+              
+      Strings
+          "hello'
+          'hi'
+          
+      Multiline string
+      str="""good morning,
+      hi,
+      hello"""
+      print(str)
+      
+      str='''good morning,
+      hi,
+      hello'''
+      print(str)
+      
+      strings are array
+             a="hello,World!"
+             print(a[1])
+             
+       string length
+           to get the length of a string, use the len() function
+            a="hello,World"
+            print(len(a))
+            
+       Check string
+           txt="today is a good day"
+           print("good" in txt)#get output is true or false
+           
+      Check if NOT
+          To check if a certain phrase or character is NOT present in a string we can use the keyword not in
+          
+          
+      Slicing
+          You can return a range of characters by using the slice syntax
+          b="Hello,World"
+          print(b[2:5])
+          
+     Basic Operations
+         upper()
+         lower()
+         strip()
+         replace()
+         split()
+         
+     String Concatenation
+     
+     String Format
+         format() to insert numbers in string
+         
+      Escape Character
+      \" \"
+        
+          
+       \' Single Quote
+       \\ Backslash
+       \n New Line
+       \r Carriage Return
+       \t tab
+       \b Backspace
+       
+       Method in string
+       capitalize()
+       casefold()
+       center()
+       count()
+       encode()
+       replace()
+       rfind()
+       rindex()
+       rjust()
+       rpartition()
+       rsplit()
+       
+       All string method return not modify the string
+       
+       Tuples
+           mytuple=("car","bus","truck")
+           
+           1. Tuples are used to store multiple items in a single variable
+           2. A tuple is a collection which is ordered and unchangeable
+           3. Tuples are written with round brackets
+           4. Tuple items are ordered, unchangable and allow duplicate values
+           5. Tuple items are indexed, the first item has index[0], the second items has index[1] etc
+           6. Tuples are unchangable meaning that we cannot change, add or remove items after the tuple has created
+           7. Since tuples are indexed, they can have items with the same value
+           
+           
+          Tuple Length
+          
+          print(len(mytiple))
+          
+          Create Tuple with one item
+              To create a tuple with only one item, you have to add a comma after the item
+          mytuple=("car",)
+          print(type(mytuple))
+          
+          #not tuple
+          mytuple=("car")
+          print(type(mytuple))
+ 
+     tuple can contain different data types
+     
+     typle()method to make tuple
+     mytuple=tuple(("car","bus","truck"))
+     
+     Access Tuple Items
+     print(mytuple[1])
+     print(mytuple[-1])
+     
+     Ranges of Indexes
+         You can specify a range of indexes by specifying where to start and where to end the range
+         
+     Check if item Exits
+     
+     Tuples are inmutable & unchangable
+     list is modifiable
+     
+     Packing a tuple
+     Unpacking a tuple
+     
+     Using asterisk
+     If the number of variables is less than the number of values, you can add an * to the variable
+     
+     
+     Loop through tuple
+     
+     Loop through index number
+     
+     using while loop
+     
+     Join Two tuple
+     
+     Tuple Method
+     
+     Dictionaries
+         changable & not allow duplicates
+         Dictionaries are used to store data valuews in key: value pairs.
+    
+        Dictionary Items
+        Dictionary items are ordered, changable and donot allow duplicates
+       
+       Dictionary duplicate
+       Dictionary length
+       
+       dict()method
+       key() method
+       Modifying Dictionary
+       values()
+       items()
+       check if
+       Delete item from dictioneries
+           pop("")
+           popitem()#last item
+           del 
+           clear()
+     Introducing Dictionories
+     Defining Dictionories
+     Modifying Dictionies
+     Deleting Items from Dictionaries
+     
+     Assign Task
+     Ques1. Program to demonstrate if elif & else by checking largest of three numbers
+     Ques2. Program to check whether number is perfect or not #perfect number 6 divisible of number add them then it is equal to number it is perfect number also try in c & c++
+     Ques3. Read multi word string & print them in alphabetic order
+     Ques4. Car = {"i10":"grey",
+                 "kushaq":Red",
+                 "i20":"white"
+                 }
+           1. how many cars are there in dictionary
+           2. change the kushaq to black
+           3. remove the cari10
+           
+     Ques5. Write a program to sort element of tuple #using sort method in order
+     Ques6. Implement contact book using dictionaries 
+     name, address, number, locality, city
+     ask from user also
