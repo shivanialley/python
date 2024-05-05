@@ -1,1 +1,33 @@
-
+Visualization
+    Data Analyst create dashboard
+          https://www.tutorialspoint.com/matplotlib/index.htm
+          https://matplotlib.org/stable/users/explain/toolkits/mplot3d.html
+        power DI
+        Tabblue
+        
+        
+       
+      graph
+          b=blue
+          k=Black
+          r=red
+          g=green
+          
+          Get two line
+          web development
+              flask
+              mangodb
+          
+          web scrapping
+          
+        Ques1   Create a numpy array x containing data representing time(in hrs) spend on studing : [1,2,3,4,5]
+                Create a  numpy array y containing corresponding data representing study score(out of 100) : [50,60,70,80,90]
+                Plot a line graph with blue solid line
+                Overlay (on top of it) a scatter plot with red markers
+            
+        Ques2 Create a numpy array categories representing different subject : ["math","science","history","english","arts"]
+              Create a numpy array scores with average score(out of 100) for each subject :[85,70,75,90,80]
+              Plot a bar graph representing subject & its score
+              Colour each bar differently
+              Add label, title & modify grid line to display a dash style
+                
