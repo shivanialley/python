@@ -1,1 +1,93 @@
+Day 3-
 
+    List
+        list length through len() method
+        list add through append
+        print at index
+        print in range
+        modify list
+        add at last
+        add at position
+        remove element
+        remove last element
+        remove at location
+        clear element
+        delete list
+        merge two list
+        merge with tuple
+        for loop in list
+            short hand in loop
+        while loop in list
+        sort in ascending
+        sort in descending
+        sort according to function
+        list copy with copy() method
+        list copy with list() method
+        
+        Ques1 Write a program using python data structure(tuple, list & dictionary) create a directory consistring of employee detail in {id, name, job role, joining date & salary}
+        perform following operation
+        1. add 5 employee to directory
+        2. check senior most employee from the directory#maxof()#optional
+        3. add a new employee to the directory
+        4. remove an employee from the directory
+        5. sort the employee 
+        6. with the help of function display full name(prefix like mr. & mrs.,first name & last name)
+        7. list employee who's salary is above 80k
+        
+        
+        Function
+            Create & calling
+            Argument
+            Arbitrary Argument-> with key & value also
+            call function many times
+            Passing list as an Argument
+            Return Values
+            Positional-only argument
+            Recursion //it is important might can come
+            
+            
+          Ques2 Program to demostrate fibonacci series using recursion
+          
+          OOPS
+          `Principle of OOPS
+              Polymorphism reuse
+              Inheritance parent to child class
+              Encapsulation data binding
+              object use class with this
+              Class
+              Abstraction data hiding from user
+              
+              
+              
+              Python Classes/Objects
+                  1. Python is an object oriented programming langiage
+                  2. Almost everything in Python is an object 
+                  
+                the_init_() function
+                    object create variable will initiate by object
+                    1. All classes have a function called __init__(), which is always executed when the class is being initiated
+                    2. Use the __init__() function to assign values to object properties or other operations that are necessary to do when the object is being created
+                    
+                    Example
+                        Create a class named Person, use the __init__() function to assign values for name and age:
+                        
+                    the__str__() Function
+                    1. the__str__() function controls what should be returned when the class object is represented as a string
+                    2. if the__str__() function is not set, the string representation of the object is returned
+                    
+                    
+                  Exception 
+                      Operations Exception
+                      Exception Handling
+                      Except clause
+                      Try finally clause
+                      User Defined Exception
+                      Logging in Python
+              
+              
+            any error can be exception
+                finally
+                raise
+                try
+                except
+                else
