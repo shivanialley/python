@@ -1,1 +1,34 @@
+Monday:-
+    How to plot a graph & upload web scraper
 
+Today topic:-
+    Inheritance
+        Parent class is template class
+        child class inherit properties & add their own properties
+        super()
+            a-->B--->C A has add() & B has sub()
+            So if i say super.add() & super.sub() so it will automtically go there
+            
+    Regular Expression
+        use in web 
+        "word" is not look character but it look as pattern
+        Metacharacter
+        
+    Set
+        unordered
+        not having key & value
+        content cannot br modified but you can add or delete
+        union will make new set to join the sets but update will do merge on that set only
+
+    PIP
+        camelcase to make line first letter upper
+Ques1 Consider warehouse inventory system. [1D Array]
+    1. Create an array consisting of product code & corresponding quantity
+    2. Determine the dimension of the inventory array
+    3. Given a product code search through the array to find quantity of array
+    4. Split the array to 2 arrays 
+    5. Reterive the quantity using array index 
+    6. Check the shape of the inventory array
+    7. reshape the inventory onto 2D array
+    8. Create a copy of the inventory array
+    9. Add new items to the inventory
