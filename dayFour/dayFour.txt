@@ -1,1 +1,41 @@
-
+Pandas:
+    csv format->comma separated format
+    excel ->distributed format
+    
+    panda series
+    DataFrames:
+        Data sets in Pandas are usually multi-dimensional tables, called DataFrames.
+        Series is like a column, a DataFrame is the whole table
+        
+        
+        drop_ns() method
+        
+        Remove row
+            df.dropna(subset=["Date"],inplace=True)
+            
+          Ques1 Create a datasets in CSV format consisting of the following data:
+              product_id,product_name,category, price,quantity
+              Do the following:-
+                  a. Load the csv file into the pandas DataFrames
+                  b. Check for and handle any missing values or inconsistancy in datasets  (data cleaning)
+                  c. Calculate sum of quantity, average of price, total cells & top selling product
+                     [use the following methods: sum and mean]
+                     
+          Ques2 Create a vehicle class with attributes no of wheels no of airbags,Max speed etc
+              Create a constructor & a method that displays vehicle's info
+              
+        [important] Ques3 Create a child class bus from vehicle class that inherit all of the variables & methods from vehicles class
+              the bus class have its own attributes number at doors, fair per kilometer, number of seats, along with inherited attributes
+          Write a method to calculate bus fair by accepting distance in kilometer as parameter
+          
+          numpy
+              create array & play with array
+              2D array consist of [[],[]]
+              split,
+              reshape
+              search
+              sort
+              
+             important note- number have shape
+                 image to array
+                 array to image using numpy
